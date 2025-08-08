@@ -4,7 +4,7 @@
 
 环境：
 1、需要在本地安装Tesseract-OCR，下载地址：https://tesseract-ocr.github.io/tessdoc/Downloads.html，要安装在本地的C:\Program Files\Tesseract-OCR\
-2、需要中文简体语言包chi_sim.traineddata放在C:\Program Files\Tesseract-OCR\tessdata下
+2、需要中文简体语言包chi_sim.traineddata放在C:\Program Files\Tesseract-OCR\tessdata下，下载地址：https://github.com/tesseract-ocr/tessdata
 
 使用步骤：
 1、在二次检查的时候，使用本程序直接截取目标机器上的文件夹，再截取源目录上的文件夹截图。
@@ -15,3 +15,4 @@
 1、截图文件的时候尽量只截取当前路径下的文件信息，尽量少一些其他文字信息。
 2、程序通过tesseract文本识别引擎，提取图片中的文字信息，简单的清洗和格式化后进行对比，文字识别正确率不一定正确，可能会导致文件名称有些异常，对于数字和字母的识别相对准确点，所以在看的时候注意对比。
 3、程序只识别文件，不识别文件夹，最后输入结果不会比对文件夹信息。
+
